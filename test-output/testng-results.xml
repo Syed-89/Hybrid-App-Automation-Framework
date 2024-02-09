@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-05T12:54:47 PST" name="Default suite" finished-at="2024-02-05T12:57:00 PST" duration-ms="133263">
+    <groups>
+    </groups>
+    <test started-at="2024-02-05T12:54:47 PST" name="Default test" finished-at="2024-02-05T12:57:00 PST" duration-ms="133263">
+      <class name="com.qa.testcases.CartTests">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.qa.testcases.CartTests@47eaca72]" started-at="2024-02-05T12:54:47 PST" name="configureAppium" finished-at="2024-02-05T12:56:37 PST" duration-ms="109534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="verifyTheCartPage(java.util.HashMap)[pri:0, instance:com.qa.testcases.CartTests@47eaca72]" started-at="2024-02-05T12:56:42 PST" name="verifyTheCartPage" data-provider="getData" finished-at="2024-02-05T12:57:00 PST" duration-ms="17351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=Female, name=sandra, Country=Argentina}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.CartTests@47eaca72]" started-at="2024-02-05T12:57:00 PST" name="tearDown" finished-at="2024-02-05T12:57:00 PST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.CartTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
